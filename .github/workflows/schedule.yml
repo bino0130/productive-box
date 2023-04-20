@@ -13,6 +13,5 @@ jobs:
         uses: bino0130/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 1bfbc17dfb448b2df07480c6b7e08a4a
+          GIST_ID: ${{ secrets.GIST_ID }}
           TIMEZONE: Asia/Seoul
-
